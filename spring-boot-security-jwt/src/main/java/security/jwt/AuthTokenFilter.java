@@ -1,5 +1,7 @@
 package security.jwt;
 
-public class AuthTokenFilter {
+import org.springframework.web.filter.OncePerRequestFilter;
+
+public class AuthTokenFilter extends OncePerRequestFilter {
 
 }
