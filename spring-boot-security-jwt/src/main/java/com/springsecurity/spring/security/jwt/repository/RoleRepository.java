@@ -1,12 +1,12 @@
-package com.bezkoder.spring.security.postgresql.repository;
+package com.springsecurity.spring.security.jwt.repository;
 
 import java.util.Optional;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.bezkoder.spring.security.postgresql.models.ERole;
-import com.bezkoder.spring.security.postgresql.models.Role;
+import com.springsecurity.spring.security.jwt.models.ERole;
+import com.springsecurity.spring.security.jwt.models.Role;
 
 @Repository
 public interface RoleRepository extends JpaRepository<Role, Long> {

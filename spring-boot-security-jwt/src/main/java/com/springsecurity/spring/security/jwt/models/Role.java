@@ -1,4 +1,4 @@
-package com.bezkoder.spring.security.postgresql.models;
+package com.springsecurity.spring.security.jwt.models;
 
 import jakarta.persistence.*;
 

@@ -1,4 +1,4 @@
-package com.bezkoder.spring.security.postgresql.security.jwt;
+package com.springsecurity.spring.security.jwt.security.jwt;
 
 import java.io.IOException;
 import java.util.HashMap;

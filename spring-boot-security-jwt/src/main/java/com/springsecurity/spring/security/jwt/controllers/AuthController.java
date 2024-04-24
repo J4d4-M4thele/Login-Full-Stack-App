@@ -1,4 +1,4 @@
-package com.bezkoder.spring.security.postgresql.controllers;
+package com.springsecurity.spring.security.jwt.controllers;
 
 import java.util.HashSet;
 import java.util.List;
@@ -20,17 +20,17 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.bezkoder.spring.security.postgresql.models.ERole;
-import com.bezkoder.spring.security.postgresql.models.Role;
-import com.bezkoder.spring.security.postgresql.models.User;
-import com.bezkoder.spring.security.postgresql.payload.request.LoginRequest;
-import com.bezkoder.spring.security.postgresql.payload.request.SignupRequest;
-import com.bezkoder.spring.security.postgresql.payload.response.JwtResponse;
-import com.bezkoder.spring.security.postgresql.payload.response.MessageResponse;
-import com.bezkoder.spring.security.postgresql.repository.RoleRepository;
-import com.bezkoder.spring.security.postgresql.repository.UserRepository;
-import com.bezkoder.spring.security.postgresql.security.jwt.JwtUtils;
-import com.bezkoder.spring.security.postgresql.security.services.UserDetailsImpl;
+import com.springsecurity.spring.security.jwt.models.ERole;
+import com.springsecurity.spring.security.jwt.models.Role;
+import com.springsecurity.spring.security.jwt.models.User;
+import com.springsecurity.spring.security.jwt.payload.request.LoginRequest;
+import com.springsecurity.spring.security.jwt.payload.request.SignupRequest;
+import com.springsecurity.spring.security.jwt.payload.response.JwtResponse;
+import com.springsecurity.spring.security.jwt.payload.response.MessageResponse;
+import com.springsecurity.spring.security.jwt.repository.RoleRepository;
+import com.springsecurity.spring.security.jwt.repository.UserRepository;
+import com.springsecurity.spring.security.jwt.security.jwt.JwtUtils;
+import com.springsecurity.spring.security.jwt.security.services.UserDetailsImpl;
 
 @CrossOrigin(origins = "*", maxAge = 3600)
 @RestController

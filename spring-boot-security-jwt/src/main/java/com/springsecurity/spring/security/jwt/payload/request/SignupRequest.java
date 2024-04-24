@@ -1,4 +1,4 @@
-package com.bezkoder.spring.security.postgresql.payload.request;
+package com.springsecurity.spring.security.jwt.payload.request;
 
 import java.util.Set;
 

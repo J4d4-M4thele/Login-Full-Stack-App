@@ -1,11 +1,11 @@
-package com.bezkoder.spring.security.postgresql.repository;
+package com.springsecurity.spring.security.jwt.repository;
 
 import java.util.Optional;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.bezkoder.spring.security.postgresql.models.User;
+import com.springsecurity.spring.security.jwt.models.User;
 
 @Repository
 public interface UserRepository extends JpaRepository<User, Long> {
