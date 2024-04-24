@@ -671,3 +671,9 @@
 2024-04-23 14:36:27,200 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2024-04-23 14:36:27,207 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2024-04-23 14:36:27,216 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Jada\OneDrive\Documents\Bootcamp\Java\9_Spring\Login Full-Stack App\spring-boot-security-jwt\src\test\resources
+2024-04-23 14:38:34,657 [Worker-49: Launching spring-boot-security-jwt - SpringBootSecurityJwtApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-23 14:38:34,680 [Worker-49: Launching spring-boot-security-jwt - SpringBootSecurityJwtApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-23 14:38:34,689 [Worker-49: Launching spring-boot-security-jwt - SpringBootSecurityJwtApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Jada\OneDrive\Documents\Bootcamp\Java\9_Spring\Login Full-Stack App\spring-boot-security-jwt\src\test\resources
+2024-04-23 14:38:44,431 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-04-23 14:38:44,440 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-04-23 14:38:44,466 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Jada\OneDrive\Documents\Bootcamp\Java\9_Spring\Login Full-Stack App\spring-boot-security-jwt\src\test\resources
