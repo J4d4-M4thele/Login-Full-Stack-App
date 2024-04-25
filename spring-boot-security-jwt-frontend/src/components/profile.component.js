@@ -1,9 +1,8 @@
 import React, { Component } from "react";
-import { Navigate, redirect } from "react-router-dom";
+import { Navigate } from "react-router-dom";
 import AuthService from "../services/auth.service";
 
 export default class Profile extends Component {
-
     constructor(props) {
         super(props);
 
@@ -22,13 +21,19 @@ export default class Profile extends Component {
     }
 
     render() {
+        if (this.state.redirect) {
+            return <Navigate to={this.state.redirect} />
+        }
+
+        const { currentUser } = this.state;
+
         return (
             <div className="container">
                 {(this.state.userReady) ?
                     <div>
                         <header className="jumbotron">
                             <h3>
-                                <strong>{currentUser.username}</strong>
+                                <strong>{currentUser.username}</strong> Profile
                             </h3>
                         </header>
                         <p>
@@ -49,8 +54,7 @@ export default class Profile extends Component {
                             {currentUser.roles &&
                                 currentUser.roles.map((role, index) => <li key={index}>{role}</li>)}
                         </ul>
-                    </div> : null
-                }
+                    </div> : null}
             </div>
         );
     }
